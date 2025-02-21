@@ -51,6 +51,19 @@
     margin: 15px;
     margin-top: 10px;
 }
+
+.option-container:hover{
+    background-color: rgba(255, 179, 0, 0.35);
+    border: 2px solid orange;
+    transform: scale(1.02);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.option-container p:hover{
+    color: #1d1d1d;
+}
+
 /* client title*/
 .client-option{
 
@@ -131,8 +144,13 @@ hr{
     padding: 0px 20px;
     text-decoration: underline;
     color: #444141;
-    font-size: 14px;
-    font-weight: 400;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.links-privacy-policy a:hover{
+    transition: all 0.3s ease;
+    color: #1d1d1d;
 }
 
 .links-privacy-policy{
@@ -146,6 +164,8 @@ hr{
     font-weight: 400;
     margin: 25px;
 }
+
+
 
 
 
