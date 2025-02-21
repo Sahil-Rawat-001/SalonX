@@ -1,4 +1,5 @@
 import "./SignUpPage.css"
+import backgrounImageForLeft from '../assets/signup-page-photo.jpg' 
 
 
 
@@ -9,7 +10,9 @@ function SignUpPage() {
     <div className="signup-container-first">
 
 
-        <div className="signup-left-image-container">
+        <div className="signup-left-image-container"
+         style={{backgroundImage:`url(${backgrounImageForLeft})`}}
+        >
            
         </div>
 
@@ -17,7 +20,7 @@ function SignUpPage() {
 
             <p className="signup-question">How would you like to use continue?</p>
 
-            <div className="right-container-client-option">
+            <div className="option-container right-container-client-option">
 
                 <div className="client-option">
                  <span>I'm a Client</span>
@@ -32,7 +35,7 @@ function SignUpPage() {
                 {/* <img src="" alt="logo" /> */}
             </div>
 
-            <div className="right-container-stylist-option">
+            <div className="option-container right-container-stylist-option">
 
              <div  className="stylist-option">
                  <span>I'm a Stylist</span>
@@ -47,7 +50,7 @@ function SignUpPage() {
 
                 {/* <img src="" alt="logo" /> */}
             </div>
-            <div className="right-container-salon-option">
+            <div className="option-container right-container-salon-option">
 
             <div className="salon-option">
                 <span>We're Salon</span>
