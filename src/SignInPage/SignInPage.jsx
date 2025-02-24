@@ -61,7 +61,7 @@ function SignInPage() {
           </p>
         </div>
 
-        <hr />
+        {/* <hr /> */}
 
         {/*<div className="privacy-policy-agreement"> */}
         {/* <p>
@@ -75,6 +75,8 @@ function SignInPage() {
                     </div> */}
         {/* </div> */}
 
+         
+          <hr />
         <div class="footer">
           <p>
             {" "}
