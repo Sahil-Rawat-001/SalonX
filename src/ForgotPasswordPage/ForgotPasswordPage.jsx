@@ -8,7 +8,14 @@ function ForgotPasswordPage() {
 
       <div className="forgotpassword-right-content-container">
 
+        <div className="left-arrow-button">
+          <button>
+            <i class="fa-solid fa-arrow-left"></i>
+          </button>
+        </div>
+
         <div className="forgotpassword-second-right-content-container">
+
             <div className="forgotpassword-lock-logo"></div>
 
             <div className="forgotpass-subtitle">
