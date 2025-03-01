@@ -15,7 +15,7 @@ body {
 }
 
 .signin-left-image-container {
-  background-image: url(../assets/signup-page-photo.jpg);
+  background-image: url(../../assets/signup-page-photo.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

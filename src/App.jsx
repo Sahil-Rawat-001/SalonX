@@ -1,16 +1,22 @@
 // import SignUpPage from "./SignUpPage/SignUpPage.jsx"
-// import SignInPage from "./SignInPage/SignInPage.jsx"
+import SignInPage from "./Pages/SignInPage/SignInPage.jsx"
 // import ForgotPasswordPage from "./ForgotPasswordPage/ForgotPasswordPage";
-import ResetPasswordPage from "./ResetPasswordPage/ResetPasswordPage"
-// import {BrowserRouter as Router , Route, Switch} from 'react-router-dom'
+// import ResetPasswordPage from "./ResetPasswordPage/ResetPasswordPage"
+// import Home from "./Components/Home/Home.jsx"
+// import {Routes, Route}  from 'react-router-dom';
+
  
 
 function App() {
+
   
 
   return (
     <>
-      < ResetPasswordPage/>
+         {/* <Routes>
+          <Route path="/" element={<Home/>} />
+         </Routes> */}
+         <SignInPage/>
     </>
   )
 }
