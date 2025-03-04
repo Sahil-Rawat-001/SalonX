@@ -174,25 +174,6 @@ input[type="checkbox"] {
   margin-top: 20px;
 }
 
-.signin-button button {
-  width: 400px;
-  padding: 14px;
-  max-width: 400px;
-  background-color: rgb(242, 159, 4);
-  color: white;
-  font-size: 20px;
-  font-weight: bold;
-  text-align: center;
-  border-radius: 8px;
-  cursor: pointer;
-  border: none;
-  transition: all 0.3s ease-in-out;
-}
-
-.signin-button button:hover {
-  background: rgb(207, 135, 1);
-}
-
 .havean-account {
   margin-top: 20px;
 }

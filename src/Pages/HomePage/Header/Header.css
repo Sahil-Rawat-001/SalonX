@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    /* border: 2px solid; */
+    font-family: "Poppins",Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* main container css */
+.main-container{
+    /* border: 2px solid; */
+    width: 94%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* left header container css */
+.header-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border:  2px solid red; */
+}
+
+.header-left img{
+    margin-bottom: 5px;
+    width: 75px;
+}
+
+.header-left p{
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+
+/* header middle container css */
+.header-middle{
+    /* border: 2px solid; */
+    width: 44rem;
+    padding: 0 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.location-dropdown-container{
+    /* border: 2px solid red; */
+    display: flex;
+    width: 15rem;
+    margin-right: 25px;
+}
+
+.searchbar-container{
+    /* border: 2px solid green; */
+    display: flex;
+    width: 20rem;
+}
+
+
+
+/* right side header container css*/
+.header-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+}
+
+.cart-logo-title, .signin-logo-title{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 0  20px;
+    /* width: 100%; */
+    /* border: 2px solid red; */
+}
+
+.cart-logo-title{
+    position: relative;
+}
+
+.cart-badge {
+    position: absolute;
+    top: 25px;
+    right: 76px;
+    background: #ed0707ea;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(50%, -50%);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+  
+
+
+.cart-logo-title img{
+    width: 24px;
+}
+
+.cart-logo-title p, .signin-logo-title p{
+    font-size: 16px;
+    margin-top: 5px;
+    font-weight: 500;
+    color: #383838e8;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+/* cart and sigin section hover effect */
+
+.cart-logo-title p:hover{
+    color: #1b1b1b;
+    text-decoration: underline;  
+    text-decoration-thickness: 2px; 
+    text-underline-offset: 3px;
+}
+
+.signin-logo-title p:hover{
+    color: #1b1b1b;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px;
+
+}
+
+
+.signin-logo-title img{
+    width: 28px;
+}
+
+
+

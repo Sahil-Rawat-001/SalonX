@@ -1,7 +1,7 @@
 // import backgroundImageLeft from '../assets/signup-page-photo.jpg'
 import "./SignInPage.css";
 import InputField from "../../Components/InputField/InputField";
-import Button from "../../Components/Button.jsx/Button";
+import Button from "../../Components/Button/Button";
 import logo from '../../assets/logo.png'
 // import brand from '../assets/brand.png'
 
@@ -37,13 +37,14 @@ function SignInPage() {
           <input type="email" id="email" placeholder="xyz@gmail.com" required />
         </div> */}
 
-        <InputField
-         className="input-box-email"
-         type="email"      
-         id="email"
-         placeholder="Email address"
-         required
-        />
+        <div className="input-box-email">
+          <InputField
+          type="email"      
+          id="email"
+          placeholder="Email address"
+          required
+          />
+        </div>
 
          {/*Used Input Field Component instead of direct usge of input box  */}
 
@@ -51,13 +52,14 @@ function SignInPage() {
           <input type="password" id="pass" placeholder="Password" required />
         </div> */}
 
-        <InputField
-         className="input-box-password" 
-         type = "password"
-         id = "pass"
-         placeholder= "Password"
-         required
-        />
+        <div className="input-box-password">
+          <InputField 
+          type = "password"
+          id = "pass"
+          placeholder= "Password"
+          required
+          />
+        </div>
 
         <div className="remember-forget-container">
           <label>

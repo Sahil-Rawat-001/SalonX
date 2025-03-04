@@ -1,9 +1,10 @@
 // import SignUpPage from "./SignUpPage/SignUpPage.jsx"
-import SignInPage from "./Pages/SignInPage/SignInPage.jsx"
+// import SignInPage from "./Pages/SignInPage/SignInPage.jsx"
 // import ForgotPasswordPage from "./ForgotPasswordPage/ForgotPasswordPage";
 // import ResetPasswordPage from "./ResetPasswordPage/ResetPasswordPage"
-// import Home from "./Components/Home/Home.jsx"
 // import {Routes, Route}  from 'react-router-dom';
+import Header from './Pages/HomePage/Header/Header.jsx'
+import Footer from './Pages/HomePage/Footer/Footer.jsx'
 
  
 
@@ -16,7 +17,9 @@ function App() {
          {/* <Routes>
           <Route path="/" element={<Home/>} />
          </Routes> */}
-         <SignInPage/>
+         <Header/>
+         <Footer/>
+
     </>
   )
 }
