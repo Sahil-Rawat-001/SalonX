@@ -10,10 +10,10 @@ import location from '../../assets/logolocation.png'
 
 function DropDown() {
 
-  const [selectedLocation, setSelectedLocation] = useState("Select Location");
+  const [selectedLocation, setSelectedLocation] = useState("Location");
   const [isOpen, setIsOpen] = useState(false);
   
-  const locations = ["India", "Dubai", "London", "Belgium", "Germany", "Paris", "Tokyo"];
+  const locations = ["India", "Dubai", "London", "Belgium", "Germany", "Paris", "Tokyo", "Jammu and Kashmir"];
 
   function handleSelectedLocation(location){
 
@@ -33,7 +33,7 @@ function DropDown() {
             <img src={location} alt="img" />
             {/* <i className="fa-solid fa-location-dot"></i> */}
             <p>{selectedLocation}</p>
-            <span className='arrow'>&#11167;</span>
+            <i className="fa-solid fa-angle-down"></i>
         </div>
 
         {isOpen && (

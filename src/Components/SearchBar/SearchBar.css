@@ -16,7 +16,7 @@ input{
     background-color: transparent;
     border: none;
     height: 100%;
-    font-size: 1.09rem;
+    font-size: 17px;
     font-weight: 500;
     width: 100%;
     margin-left: 10px;
@@ -24,7 +24,7 @@ input{
 }
 
 input::placeholder{
-    color: #636363eb;
+    color: #505050eb;
 }
 
 input:focus{
@@ -35,4 +35,19 @@ input:focus{
     color: rgb(59, 59, 59);
     font-size: 1.3rem;
     
+}
+
+@media (max-width: 830px){
+
+    .searchbar-input-wrapper{
+        padding: 7px 7px;
+    }
+
+    #search-icon{
+        font-size: 18px;
+    }
+
+    input{
+        font-size: 14px;
+    }
 }
