@@ -3,8 +3,8 @@
 // import ForgotPasswordPage from "./ForgotPasswordPage/ForgotPasswordPage";
 // import ResetPasswordPage from "./ResetPasswordPage/ResetPasswordPage"
 // import {Routes, Route}  from 'react-router-dom';
-import Header from './Pages/HomePage/Header/Header.jsx'
-import Footer from './Pages/HomePage/Footer/Footer.jsx'
+import HomePage from "./Pages/HomePage/Home/HomePage"
+
 
  
 
@@ -17,9 +17,7 @@ function App() {
          {/* <Routes>
           <Route path="/" element={<Home/>} />
          </Routes> */}
-         <Header/>
-         <Footer/>
-
+         <HomePage/>
     </>
   )
 }
