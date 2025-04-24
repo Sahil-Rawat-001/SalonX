@@ -1,0 +1,34 @@
+main{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eeeeeeec;
+    width: 100%;
+    height: 70vh;
+    font-family: 'Monsterrat','Poppins',Arial, Helvetica, sans-serif;
+}
+
+.services-container{
+    
+    /* border: 2px solid; */
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+#sub-title{
+    font-family: 'Monsterrat',Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #1d1d1deb;
+    margin-bottom: 25px;
+    margin-left: 28px;
+}
+
+.service-content-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}

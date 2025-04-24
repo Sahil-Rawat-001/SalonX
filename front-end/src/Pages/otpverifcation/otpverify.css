@@ -1,0 +1,60 @@
+*{
+    font-family: 'monsterrat','poppins',Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+  }
+  
+  header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px; /* space between logo and text */
+    height: 8vh;
+    padding: 20px;
+  }
+  
+  header img{
+    height: 40px;
+    width: auto;
+  }
+  
+  header h2{
+     font-family: 'lora',Arial, Helvetica, sans-serif;
+     font-weight: 400;
+     margin-top: 8px;
+  }
+  
+  
+  
+  
+  /* horizontal line css */
+  hr{
+    border: 0.5px solid #cfcfcfc7;
+    width: 100%;
+}
+
+.main-content{
+  margin-top: 30px;
+}
+
+.main-content h2{
+  font-family: 'poppins';
+  font-weight:600;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.main-content p{
+  font-family:'monsterrat',Georgia, 'Times New Roman', Times, serif;
+  color: #5c5c5c;
+  font-size: 16px;
+}
+
+.main-content span{
+  cursor: pointer;
+  font-size: 16px;
+  color: #f5a207;
+}
+
+.main-content span:hover{
+  text-decoration: underline;
+}

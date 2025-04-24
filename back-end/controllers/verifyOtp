@@ -1,0 +1,20 @@
+const Otp = require('../models/otpSchema');
+
+
+const handleVerifyOtp = async (req, res) => {
+    const { email, otp } = req.body;
+  
+    const otpRecord = await Otp.findOne({ email });
+  
+    if (!otpRecord) {
+      return res.status(400).json({ message: "OTP not found" });
+    }
+  
+    if (otpRecord.otp !== otp) {
+      return res.status(400).json({ message: "Invalid OTP" });
+    }
+
+    res.status(200).json({ message: "OTP verified" });
+};
+  
+  module.exports = {handleVerifyOtp};
